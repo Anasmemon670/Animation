@@ -1,0 +1,31 @@
+.item{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    transition: all;
+    animation: newanimation 10s ease-in-out 0.5s infinite alternate;
+}
+@keyframes newanimation{
+    /* from{
+        background-color: aqua;
+    }
+    to{
+        background-color: darkgray;
+        transform: translate(200px);
+    } */
+    0%{
+      
+    }
+    25%{
+        transform: translate(200px , 0);
+    }
+    50%{
+       transform: translate(200px , 200px);
+    }
+    75%{
+        transform: translate(400px , 200px);
+    }
+    100%{
+        transform: translate(400px , 400px);
+    }
+}
