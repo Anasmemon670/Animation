@@ -1,31 +1,71 @@
+body{
+    background-image: url(mi.jpg);
+   background-position: center;
+   background-repeat: unset;
+   background-size: cover;
+   height: 100vh;
+}
 .item{
-    height: 250px;
-    width: 250px;
-    background-color: black;
+    height: 200px;
+    width: 200px;
+    /* background-color: black; */
+    background-image: url(back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: all;
-    animation: newanimation 10s ease-in-out 0.5s infinite alternate;
+    animation: newanimation 15s ease-in-out 0.5s infinite alternate;
 }
 @keyframes newanimation{
-    /* from{
-        background-color: aqua;
-    }
-    to{
-        background-color: darkgray;
-        transform: translate(200px);
-    } */
     0%{
-      
+    
     }
-    25%{
+    20%{
         transform: translate(200px , 0);
+        border-radius: 50%;
+        /* background-color: darkgray; */
+        background-image: url(images\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    50%{
-       transform: translate(200px , 200px);
+    40%{
+       transform: translate(200px ,200px);
+       border-radius: 0;
+       /* background-color: darkblue; */
+       background-image: url(download.jpg);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
     }
-    75%{
-        transform: translate(400px , 200px);
+    60%{
+        transform: translate(400px ,200px);
+        border-radius: 50%;
+        /* background-color: aqua; */
+        background-image: url(images\ \(3\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    80%{
+        transform: translate(400px , 400px);
+        border-radius: 0;
+        /* background-color: green; */
+        background-image: url(images\ \(2\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
     }
     100%{
-        transform: translate(400px , 400px);
+        transform: translate(550px , 450px);
+        border-radius: 50%;
+        /* background-color: red; */
+        background-image: url(img1.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
 }
