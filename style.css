@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     transition: all;
-    animation: newanimation 15s ease-in-out 0.5s infinite alternate;
+    animation: newanimation 15s ease-in-out 2s infinite alternate;
 }
 @keyframes newanimation{
     0%{
